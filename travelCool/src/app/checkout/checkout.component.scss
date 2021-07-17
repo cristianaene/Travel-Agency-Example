@@ -1,0 +1,16 @@
+.form-control {
+    &:focus {
+        z-index: 3;
+        border-color: #080a0e;
+        border-top-color: rgb(134, 183, 254);
+        border-right-color: rgb(134, 183, 254);
+        border-bottom-color: rgb(134, 183, 254);
+        border-left-color: rgb(134, 183, 254);
+        outline: 0;
+        box-shadow: 0 0 0 .25rem rgba(14, 15, 15, 0.25);
+    }
+}
+
+h2 {
+    margin: 1.5em 0 1.5em 0;
+}
